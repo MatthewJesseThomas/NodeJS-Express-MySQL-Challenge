@@ -20,7 +20,13 @@ app.get("/", (req, res) => {
   res.json({ message: "Hello Friend!!!" });
   
 });
-
+app.post("/api/tutorials", (req, res) => {
+  res.json({ 
+    "title": "Node Rest Api's",
+    "description": "Tut#3 Description"
+    });
+  
+});
 
 
 // ...
